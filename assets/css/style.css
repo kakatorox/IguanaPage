@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Raleway-Light" ;
+    src: url('../font/Raleway-Light.ttf') format('truetype');
+    font-family: "Raleway-Medium";
+    src: url('../font/Raleway-Medium.ttf') format('truetype');
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-family: "Raleway-Medium";
+}
+.primeraSeccion{
+    justify-content: center;
+    display: flex;
+    /*  top right bottom left*/
+    margin: 0 auto 2rem auto;
+}
+.segundaSeccion {
+    justify-content: center;
+    display: flex;
+    /*  top right bottom left*/
+    margin: 0 auto 0 auto;
+    width: 70%;
+}
+.segundaSeccion article{
+    color: white;
+    margin: auto 0 auto 0;
+    padding: 0 2rem 0 2rem;
+    text-align: justify;
+    font-family: "Raleway-Light";
+}
+.segundaSeccion img {
+    margin: auto 0 auto 0;
+    padding: 0 2rem 0 2rem;
+    width: 399px;
+    height: 237px;
+}
+.terceraSeccion {
+    justify-content: center;
+    display: flex;
+    background-color: #1E1A13;
+    /*  top right bottom left*/
+    margin: 2rem auto 2rem auto;
+}
+.terceraSeccion article{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    color: white;
+    align-content: center;
+    
+}
+.terceraSeccion article h1{
+    padding: 1rem 0 0 0;
+    color: white;
+    font-family: "Raleway-Medium";
+    text-align: center;
+}
+.terceraSeccion article div {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    
+}
+.terceraSeccion article div i{
+    width: 100px;
+    height: auto;
+    font-size: 3rem;;
+}
+.terceraSeccion article div p {
+    font-size: 1.5rem;
+    font-family: "Raleway-Light";
+}
+.cuartaSeccion {
+    /*  top right bottom left*/
+    margin: 2rem auto 2rem auto;
+    display: flex;
+    align-content: center;
+}
+
+.cuartaSeccion article {
+    margin: 0 auto 0 auto;
+
+}
+.cuartaSeccion article p {
+    width: 33%;
+    float: left;
+    margin: 0 auto 0 auto;
+
+}
+.cuartaSeccion article p img {
+    width:316px ;
+    height: 200px;
+    margin: 0 0.5rem 0 0.5rem;
+}
+.footer {
+    bottom: 0;
+    background-color: #1E1A13;
+    /*  top right bottom left*/
+    padding: 2rem;
+    
+}
+.footer p {
+    color: white;
+    text-align: center;
+    font-family: "Raleway-Light";
+}
+
